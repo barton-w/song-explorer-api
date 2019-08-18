@@ -5,4 +5,5 @@ Rails.application.routes.draw do
       get :features
     end
   end
+  resources :wakes, only: [:index]
 end
