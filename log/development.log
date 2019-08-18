@@ -1993,3 +1993,163 @@ Processing by TracksController#features as */*
 Completed 200 OK in 172ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 5052)
 
 
+Started GET "/tracks/lyrics?lyrics=ride%20my%20bike%20with%20no%20handlebars" for ::1 at 2019-08-18 15:48:09 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"ride my bike with no handlebars"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.11ms)
+Completed 200 OK in 982ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 18725)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 15:49:17 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 960ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 17940)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 15:54:03 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 880ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 18187)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 15:55:48 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+Completed 500 Internal Server Error in 1052ms (ActiveRecord: 0.0ms | Allocations: 48227)
+
+
+  
+NameError (undefined local variable or method `genuis_parsed' for #<TracksController:0x00007fe43ce1ec90>
+Did you mean?  genius_parsed):
+  
+app/controllers/tracks_controller.rb:33:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 15:56:04 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.5ms)
+Completed 200 OK in 443ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 7387)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 15:57:19 -0600
+  
+SyntaxError (/Users/bartonw/sei/sei_projects/project_5_song_features/song-features-api/app/controllers/tracks_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/tracks_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/tracks_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 15:57:41 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.42ms)
+Completed 200 OK in 573ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 4017)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 15:59:06 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.4ms)
+Completed 200 OK in 584ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 4854)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 16:00:30 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.38ms)
+Completed 200 OK in 578ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 4876)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 16:01:43 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.3ms)
+Completed 200 OK in 549ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 4854)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 16:02:17 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.66ms)
+Completed 200 OK in 695ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 4888)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 16:02:30 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.34ms)
+Completed 200 OK in 470ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 4875)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 16:03:00 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.48ms)
+Completed 200 OK in 618ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 5047)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 16:03:37 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.46ms)
+Completed 200 OK in 567ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 5036)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 16:04:05 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.38ms)
+Completed 200 OK in 787ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 5083)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 16:04:47 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.32ms)
+Completed 200 OK in 564ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 5066)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 16:05:30 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.36ms)
+Completed 200 OK in 504ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 5052)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20just%20sit%20in%20silence" for ::1 at 2019-08-18 16:05:43 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i just sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.38ms)
+Completed 200 OK in 386ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 5059)
+
+
+Started GET "/tracks/lyrics?lyrics=got%20a%20pulse%20and%20you%27re%20breathing" for ::1 at 2019-08-18 16:06:39 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"got a pulse and you're breathing"}
+Completed 500 Internal Server Error in 713ms (ActiveRecord: 0.0ms | Allocations: 48391)
+
+
+  
+NameError (undefined local variable or method `test2' for #<TracksController:0x00007fe4400a7d88>
+Did you mean?  test):
+  
+app/controllers/tracks_controller.rb:36:in `block in lyrics'
+app/controllers/tracks_controller.rb:34:in `each'
+app/controllers/tracks_controller.rb:34:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=got%20a%20pulse%20and%20you%27re%20breathing" for ::1 at 2019-08-18 16:06:50 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"got a pulse and you're breathing"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.67ms)
+Completed 500 Internal Server Error in 1434ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 20406)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/tracks_controller.rb:73:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=got%20a%20pulse%20and%20you%27re%20breathing" for ::1 at 2019-08-18 16:07:07 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"got a pulse and you're breathing"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.32ms)
+Completed 200 OK in 1894ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 20152)
+
+
