@@ -1610,3 +1610,386 @@ Processing by TracksController#features as */*
 Completed 200 OK in 117ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 5615)
 
 
+Started GET "/tracks/search?track=Little%20Miss%20Lonely%20by%C2%A0Johnny%C2%A0Cymbal" for ::1 at 2019-08-18 13:19:27 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"Little Miss Lonely by Johnny Cymbal"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 200 OK in 73ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 2506)
+
+
+Started GET "/tracks/search?track=Little%20Miss%20Lonely" for ::1 at 2019-08-18 13:20:16 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"Little Miss Lonely"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.53ms)
+Completed 200 OK in 96ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 4952)
+
+
+Started GET "/tracks/lyrics" for ::1 at 2019-08-18 13:38:08 -0600
+Processing by TracksController#lyrics as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/tracks/lyrics" for ::1 at 2019-08-18 13:41:34 -0600
+Processing by TracksController#lyrics as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.61ms)
+Completed 200 OK in 540ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 2856)
+
+
+Started GET "/tracks/lyrics" for ::1 at 2019-08-18 13:42:19 -0600
+Processing by TracksController#lyrics as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.13ms)
+Completed 200 OK in 325ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 8432)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 13:45:08 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.62ms)
+Completed 200 OK in 433ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 7911)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 13:45:53 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.64ms)
+Completed 200 OK in 679ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 7910)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 13:46:45 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 803ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 3570)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 13:46:58 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.6ms)
+Completed 200 OK in 381ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 7919)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 13:49:22 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+Completed 500 Internal Server Error in 665ms (ActiveRecord: 0.0ms | Allocations: 4680)
+
+
+  
+NoMethodError (undefined method `response' for #<Hash:0x00007fe43b9f98c8>
+Did you mean?  respond_to?):
+  
+app/controllers/tracks_controller.rb:32:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 13:49:41 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+Completed 500 Internal Server Error in 721ms (ActiveRecord: 0.0ms | Allocations: 48309)
+
+
+  
+NameError (undefined local variable or method `hits' for #<TracksController:0x00007fe44008f7d8>):
+  
+app/controllers/tracks_controller.rb:32:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 13:54:49 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.98ms)
+Completed 200 OK in 1517ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 8509)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 13:55:45 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.16ms)
+Completed 200 OK in 703ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 18334)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:17:40 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.28ms)
+Completed 200 OK in 376ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 3905)
+
+
+Started GET "/tracks/search?track=Radioactive%20%28Live%20from%20Spotify%20London%29" for ::1 at 2019-08-18 14:18:11 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"Radioactive (Live from Spotify London)"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.29ms)
+Completed 200 OK in 278ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 11083)
+
+
+Started GET "/tracks/search?track=Radioactive" for ::1 at 2019-08-18 14:22:02 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"Radioactive"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.4ms)
+Completed 200 OK in 87ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 5730)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:24:56 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.26ms)
+Completed 200 OK in 405ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 4480)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:29:27 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+Completed 500 Internal Server Error in 528ms (ActiveRecord: 0.0ms | Allocations: 3313)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/tracks_controller.rb:3:in `search'
+app/controllers/tracks_controller.rb:53:in `block in lyrics'
+app/controllers/tracks_controller.rb:52:in `each'
+app/controllers/tracks_controller.rb:52:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:31:17 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (13.97ms)
+Completed 200 OK in 922ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 38441)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:35:27 -0600
+  
+SyntaxError (/Users/bartonw/sei/sei_projects/project_5_song_features/song-features-api/app/controllers/tracks_controller.rb:77: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/tracks_controller.rb:77: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/tracks_controller.rb:77: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:36:01 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (14.29ms)
+Completed 200 OK in 877ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 39091)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:36:36 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.58ms)
+Completed 200 OK in 1130ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 24258)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:39:40 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+Completed 500 Internal Server Error in 1276ms (ActiveRecord: 0.0ms | Allocations: 101331)
+
+
+  
+NameError (undefined local variable or method `spotty_dizzy' for #<TracksController:0x00007fe43b6061a8>):
+  
+app/controllers/tracks_controller.rb:63:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:49:17 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+Completed 500 Internal Server Error in 840ms (ActiveRecord: 0.0ms | Allocations: 6407)
+
+
+  
+NameError (`@[]' is not allowed as an instance variable name):
+  
+app/controllers/tracks_controller.rb:52:in `block (2 levels) in lyrics'
+app/controllers/tracks_controller.rb:51:in `each'
+app/controllers/tracks_controller.rb:51:in `block in lyrics'
+app/controllers/tracks_controller.rb:47:in `each'
+app/controllers/tracks_controller.rb:47:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:49:48 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.87ms)
+Completed 200 OK in 981ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 45614)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:51:33 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.68ms)
+Completed 200 OK in 1106ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 46750)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:53:18 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+Completed 500 Internal Server Error in 504ms (ActiveRecord: 0.0ms | Allocations: 6407)
+
+
+  
+NameError (`@[]' is not allowed as an instance variable name):
+  
+app/controllers/tracks_controller.rb:52:in `block (2 levels) in lyrics'
+app/controllers/tracks_controller.rb:51:in `each'
+app/controllers/tracks_controller.rb:51:in `block in lyrics'
+app/controllers/tracks_controller.rb:47:in `each'
+app/controllers/tracks_controller.rb:47:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:54:32 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.26ms)
+Completed 200 OK in 1149ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 56711)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:55:43 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.43ms)
+Completed 200 OK in 1018ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 22446)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:57:40 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+Completed 500 Internal Server Error in 537ms (ActiveRecord: 0.0ms | Allocations: 5669)
+
+
+  
+NameError (`@[]' is not allowed as an instance variable name):
+  
+app/controllers/tracks_controller.rb:53:in `block (2 levels) in lyrics'
+app/controllers/tracks_controller.rb:51:in `each'
+app/controllers/tracks_controller.rb:51:in `block in lyrics'
+app/controllers/tracks_controller.rb:47:in `each'
+app/controllers/tracks_controller.rb:47:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:57:55 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.57ms)
+Completed 200 OK in 1048ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 20627)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:58:27 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.53ms)
+Completed 200 OK in 845ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 16561)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 14:59:31 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 1054ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 15336)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 15:00:28 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.42ms)
+Completed 200 OK in 2005ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 15994)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 15:02:54 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.86ms)
+Completed 200 OK in 887ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 18844)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 15:06:04 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.58ms)
+Completed 200 OK in 829ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 19533)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 15:13:05 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.15ms)
+Completed 200 OK in 1041ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 22890)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 15:14:36 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.06ms)
+Completed 200 OK in 876ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 19539)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 15:18:13 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+Completed 500 Internal Server Error in 1024ms (ActiveRecord: 0.0ms | Allocations: 10752)
+
+
+  
+NoMethodError (undefined method `gsub!' for nil:NilClass):
+  
+app/controllers/tracks_controller.rb:51:in `block (2 levels) in lyrics'
+app/controllers/tracks_controller.rb:50:in `each'
+app/controllers/tracks_controller.rb:50:in `block in lyrics'
+app/controllers/tracks_controller.rb:47:in `each'
+app/controllers/tracks_controller.rb:47:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 15:20:21 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.87ms)
+Completed 200 OK in 939ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 19244)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 15:25:05 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.45ms)
+Completed 200 OK in 1112ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 20684)
+
+
+Started GET "/tracks/lyrics?lyrics=waking%20up%20to%20ash%20and%20dust" for ::1 at 2019-08-18 15:27:49 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"waking up to ash and dust"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.25ms)
+Completed 200 OK in 845ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 20415)
+
+
+Started GET "/tracks/lyrics?lyrics=my%20taste%20in%20music%20is%20your%20face" for ::1 at 2019-08-18 15:28:43 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"my taste in music is your face"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 1036ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 19170)
+
+
+Started GET "/tracks/lyrics?lyrics=my%20taste%20in%20music%20is%20your%20face" for ::1 at 2019-08-18 15:29:16 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"my taste in music is your face"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 1020ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 19440)
+
+
+Started GET "/tracks/lyrics?lyrics=my%20taste%20in%20music%20is%20your%20face" for ::1 at 2019-08-18 15:32:16 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"my taste in music is your face"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 854ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 19118)
+
+
+Started GET "/tracks/lyrics?lyrics=got%20soul%20but%20i%27m%20not%20a%20soldier" for ::1 at 2019-08-18 15:32:39 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"got soul but i'm not a soldier"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1161ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 19800)
+
+
+Started GET "/tracks/lyrics?lyrics=got%20soul%20but%20i%27m%20not%20a%20soldier" for ::1 at 2019-08-18 15:35:52 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"got soul but i'm not a soldier"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 2004ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 20287)
+
+
+Started GET "/tracks/lyrics?lyrics=got%20soul%20but%20i%27m%20not%20a%20soldier" for ::1 at 2019-08-18 15:36:51 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"got soul but i'm not a soldier"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.66ms)
+Completed 200 OK in 927ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 21194)
+
+
+Started GET "/tracks/features?id=4yyMjJrrjaDRXyIoM4JbbC" for ::1 at 2019-08-18 15:37:17 -0600
+Processing by TracksController#features as */*
+  Parameters: {"id"=>"4yyMjJrrjaDRXyIoM4JbbC"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.74ms)
+Completed 200 OK in 172ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 5052)
+
+

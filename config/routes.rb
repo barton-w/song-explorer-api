@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     collection do
       get :search
       get :features
+      get :lyrics
     end
   end
   resources :wakes, only: [:index]
