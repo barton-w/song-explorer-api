@@ -7,4 +7,5 @@ Rails.application.routes.draw do
     end
   end
   resources :wakes, only: [:index]
+  root "welcome#index"
 end
