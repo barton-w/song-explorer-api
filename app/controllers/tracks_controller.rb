@@ -9,6 +9,7 @@ class TracksController < ApplicationController
           name: track.name,
           image: track.album.images[0],
           artist: track.artists,
+          urls: track.external_urls,
           id: track.id
           })
       end
@@ -62,6 +63,7 @@ class TracksController < ApplicationController
                 name: track.name,
                 image: track.album.images[0],
                 artist: track.artists,
+                urls: track.external_urls,
                 id: track.id,
                 lyrics_url: song[:lyrics_url]
                 })
@@ -69,7 +71,7 @@ class TracksController < ApplicationController
           end
         end
       end
-      render json: {songs: spotify_data_filtered}, status: 200
+      render json: {tracks: spotify_data_filtered}, status: 200
     else
       render json: {message: "No results found. Please try changing your search"}, status: 200
     end
