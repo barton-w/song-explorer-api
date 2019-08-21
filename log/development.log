@@ -5898,3 +5898,532 @@ Processing by WakesController#index as */*
 Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
 
 
+Started GET "/wakes" for ::1 at 2019-08-20 17:00:52 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 746)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 17:08:43 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 17:10:33 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 17:10:59 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 17:12:14 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 17:13:50 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 17:16:12 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 17:29:32 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/search?track=" for ::1 at 2019-08-20 17:33:39 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>""}
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.0ms | Allocations: 3561)
+
+
+  
+RestClient::BadRequest (400 Bad Request):
+  
+app/controllers/tracks_controller.rb:4:in `search'
+Started GET "/wakes" for ::1 at 2019-08-20 17:40:17 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 17:40:25 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 17:40:34 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 17:42:44 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 17:50:06 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/search?track=skinny%20love" for ::1 at 2019-08-20 17:51:06 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"skinny love"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.01ms)
+Completed 200 OK in 134ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 8952)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 17:51:53 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 18:00:18 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 18:01:34 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 18:01:47 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 18:28:05 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 18:32:03 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 18:34:43 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 18:35:57 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 18:41:44 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 213)
+
+
+Started GET "/tracks/search?track=Skinny%20Love" for ::1 at 2019-08-20 18:43:53 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"Skinny Love"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.04ms)
+Completed 200 OK in 304ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 13086)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 18:44:42 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/search?track=Words" for ::1 at 2019-08-20 18:44:46 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"Words"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.04ms)
+Completed 200 OK in 82ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 5516)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 18:45:20 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 20:17:44 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.26ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 749)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 20:17:49 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/tracks/search?track=mr%20brightside" for ::1 at 2019-08-20 20:19:23 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"mr brightside"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.78ms)
+Completed 200 OK in 286ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 7488)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 20:20:23 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/tracks/search?track=mr%20brightside" for ::1 at 2019-08-20 20:20:29 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"mr brightside"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.74ms)
+Completed 200 OK in 118ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 5687)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 20:24:09 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/search?track=together%20we%20are%20the%20same" for ::1 at 2019-08-20 20:24:17 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"together we are the same"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.12ms)
+Completed 200 OK in 90ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 5983)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 20:33:09 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/search?track=keep%20on%20loving%20you" for ::1 at 2019-08-20 20:33:16 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"keep on loving you"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.15ms)
+Completed 200 OK in 203ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 4941)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 20:35:30 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/search?track=yolo" for ::1 at 2019-08-20 20:35:35 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"yolo"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.06ms)
+Completed 200 OK in 90ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 6253)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 20:50:07 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/search?track=yolo" for ::1 at 2019-08-20 20:50:11 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"yolo"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.49ms)
+Completed 200 OK in 107ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 5935)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:01:27 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/search?track=black%20dog" for ::1 at 2019-08-20 21:02:14 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"black dog"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.5ms)
+Completed 200 OK in 155ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 4963)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:07:27 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/search?track=amzy" for ::1 at 2019-08-20 21:07:31 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"amzy"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.66ms)
+Completed 200 OK in 97ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 5230)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:12:13 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/search?track=amzy" for ::1 at 2019-08-20 21:12:17 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"amzy"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.61ms)
+Completed 200 OK in 78ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 5079)
+
+
+Started GET "/tracks/features?id=7LBxCbQDYcOtZJATCkfthi" for ::1 at 2019-08-20 21:12:20 -0600
+Processing by TracksController#features as */*
+  Parameters: {"id"=>"7LBxCbQDYcOtZJATCkfthi"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.45ms)
+Completed 200 OK in 133ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 8325)
+
+
+Started GET "/tracks/features?id=7LBxCbQDYcOtZJATCkfthi" for ::1 at 2019-08-20 21:12:52 -0600
+Processing by TracksController#features as */*
+  Parameters: {"id"=>"7LBxCbQDYcOtZJATCkfthi"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.49ms)
+Completed 200 OK in 127ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 5596)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:17:47 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 0ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:19:04 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 0ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/search?track=foxfield%20four" for ::1 at 2019-08-20 21:19:34 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"foxfield four"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.3ms)
+Completed 200 OK in 323ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 13591)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:20:25 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/features?id=4TuLfo4ozfXhY8SwsiwfVa" for ::1 at 2019-08-20 21:20:28 -0600
+Processing by TracksController#features as */*
+  Parameters: {"id"=>"4TuLfo4ozfXhY8SwsiwfVa"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.3ms)
+Completed 200 OK in 145ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 5108)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:25:17 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:26:01 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:26:22 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:26:24 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:27:03 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:28:28 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 0ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:36:33 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 749)
+
+
+Started GET "/tracks/search?track=amzy" for ::1 at 2019-08-20 21:38:56 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"amzy"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.68ms)
+Completed 200 OK in 86ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 6755)
+
+
+Started GET "/tracks/features?id=7LBxCbQDYcOtZJATCkfthi" for ::1 at 2019-08-20 21:38:59 -0600
+Processing by TracksController#features as */*
+  Parameters: {"id"=>"7LBxCbQDYcOtZJATCkfthi"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.58ms)
+Completed 200 OK in 122ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 5736)
+
+
+Started GET "/tracks/features?id=7LBxCbQDYcOtZJATCkfthi" for ::1 at 2019-08-20 21:39:08 -0600
+Processing by TracksController#features as */*
+  Parameters: {"id"=>"7LBxCbQDYcOtZJATCkfthi"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.46ms)
+Completed 200 OK in 105ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 5405)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:44:32 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 747)
+
+
+Started GET "/tracks/lyrics?lyrics=i%27ll%20follow%20you" for ::1 at 2019-08-20 21:45:02 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"i'll follow you"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.31ms)
+Completed 200 OK in 1318ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 27561)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:45:55 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 220)
+
+
+Started GET "/tracks/lyrics?lyrics=come%20on%20skinny%20love" for ::1 at 2019-08-20 21:46:05 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"come on skinny love"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.67ms)
+Completed 200 OK in 844ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 20354)
+
+
+Started GET "/wakes" for ::1 at 2019-08-20 21:51:32 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/tracks/lyrics?lyrics=tell%20em" for ::1 at 2019-08-20 21:51:37 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"tell em"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.99ms)
+Completed 200 OK in 1026ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 21180)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 16:28:25 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 749)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 16:30:11 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 16:30:38 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/tracks/search?track=" for ::1 at 2019-08-21 16:30:51 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>""}
+Completed 500 Internal Server Error in 90ms (ActiveRecord: 0.0ms | Allocations: 3605)
+
+
+  
+RestClient::BadRequest (400 Bad Request):
+  
+app/controllers/tracks_controller.rb:4:in `search'
+Started GET "/wakes" for ::1 at 2019-08-21 16:31:50 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/search?track=amzy" for ::1 at 2019-08-21 16:31:54 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"amzy"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.49ms)
+Completed 200 OK in 92ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 8720)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 16:40:33 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 16:41:58 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 0ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 16:44:24 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 16:45:44 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 16:51:49 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 16:52:24 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 16:57:41 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
