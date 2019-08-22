@@ -1,7 +1,7 @@
 class TracksController < ApplicationController
 
   def search
-    tracks = RSpotify::Track.search(search_params[:track], limit: 5, market: "US")
+    tracks = RSpotify::Track.search(search_params[:track], limit: 8, market: "US")
     if tracks.length > 0
       tracks_filtered = []
       tracks.each do |track|
@@ -70,6 +70,39 @@ class TracksController < ApplicationController
                 id: track.id,
                 lyrics_url: song[:lyrics_url]
                 })
+            else
+              i = 0
+              j = 0
+              song_running_total = 0
+              artist_running_total = 0
+              until i == song_title.length do
+                if track_title.include? song_title[i]
+                  song_running_total += 1
+                end
+                i += 1
+              end
+              until j == artist_name.length do
+                if sp_artist_name.include? artist_name[j]
+                  artist_running_total += 1
+                end
+                j += 1
+              end
+              # puts "genius song: #{song_title}, spotify song: #{track_title}"
+              # puts "song calc: #{song_running_total / song_title.length.to_f}"
+              # puts "genius artist: #{artist_name}, spotify artist: #{sp_artist_name}"
+              # puts "artist calc: #{artist_running_total / artist_name.length.to_f}"
+              song_match = song_running_total / song_title.length.to_f
+              artist_match = artist_running_total / artist_name.length.to_f
+              if song_match >= 0.9 && artist_match >= 0.85
+                spotify_data_filtered.push({
+                  name: track.name,
+                  image: track.album.images[0],
+                  artist: track.artists,
+                  urls: track.external_urls,
+                  id: track.id,
+                  lyrics_url: song[:lyrics_url]
+                  })
+              end
             end
           end
         end
