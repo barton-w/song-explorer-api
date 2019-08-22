@@ -50,14 +50,17 @@ class TracksController < ApplicationController
         if spotify_data.length > 0
           spotify_data.each do |track|
             song_title = song[:title].downcase.gsub!(/\s*/, "")
+            song_title.strip!
             song_title.gsub!(/-|\(|\.|\)|'|,|"|’/, "")
             song_title.gsub!(/\s*/, "")
             track_title = track.name.downcase.gsub!(/\s*/, "")
+            track_title.strip!
             track_title.gsub!(/-|\(|\.|\)|'|,|"|’/, "")
             track_title.gsub!(/\s*/, "")
             artist_name = song[:artist].downcase.gsub!(/\s*/, "")
+            artist_name.strip!
             sp_artist_name = track.artists[0].name.downcase.gsub!(/\s*/, "")
-            pp "Lyrics song is: #{song_title} by #{artist_name} and Spotify track is #{track_title} by #{sp_artist_name}"
+            sp_artist_name.strip!
             if track_title == song_title && artist_name == sp_artist_name
               spotify_data_filtered.push({
                 name: track.name,
@@ -71,7 +74,11 @@ class TracksController < ApplicationController
           end
         end
       end
-      render json: {tracks: spotify_data_filtered}, status: 200
+      if spotify_data_filtered.length > 0
+        render json: {tracks: spotify_data_filtered}, status: 200
+      else
+        render json: {message: "No results found. Please try changing your search"}, status: 200
+      end
     else
       render json: {message: "No results found. Please try changing your search"}, status: 200
     end

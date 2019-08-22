@@ -6427,3 +6427,492 @@ Processing by WakesController#index as */*
 Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 212)
 
 
+Started GET "/wakes" for ::1 at 2019-08-21 17:04:49 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 746)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:07:46 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.5ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:10:38 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/tracks/search?track=your%20love" for ::1 at 2019-08-21 17:10:54 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"your love"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.66ms)
+Completed 200 OK in 112ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 7247)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:11:42 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:12:03 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.27ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 749)
+
+
+Started GET "/tracks/search?track=your%20love" for ::1 at 2019-08-21 17:12:10 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"your love"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.7ms)
+Completed 200 OK in 66ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 7148)
+
+
+Started GET "/tracks/features?id=5dRQUolXAVX3BbCiIxmSsf" for ::1 at 2019-08-21 17:12:18 -0600
+Processing by TracksController#features as */*
+  Parameters: {"id"=>"5dRQUolXAVX3BbCiIxmSsf"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.69ms)
+Completed 200 OK in 116ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 5681)
+
+
+Started GET "/tracks/features?id=6FRwDxXsvSasw0y2eDArsz" for ::1 at 2019-08-21 17:12:27 -0600
+Processing by TracksController#features as */*
+  Parameters: {"id"=>"6FRwDxXsvSasw0y2eDArsz"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.3ms)
+Completed 200 OK in 154ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 5833)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:15:03 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:15:43 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:17:04 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 0ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:18:20 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/lyrics?lyrics=josie%27s%20on%20a%20vaction" for ::1 at 2019-08-21 17:18:34 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"josie's on a vaction"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.64ms)
+Completed 200 OK in 1521ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 26744)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:19:18 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 217)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:19:44 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/lyrics?lyrics=josie%27s%20on%20a%20vaction" for ::1 at 2019-08-21 17:19:58 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"josie's on a vaction"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.58ms)
+Completed 200 OK in 791ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 21758)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:20:33 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:20:40 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/lyrics?lyrics=josie%27s%20on%20a%20vaction" for ::1 at 2019-08-21 17:21:12 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"josie's on a vaction"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.65ms)
+Completed 200 OK in 993ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 20419)
+
+
+Started GET "/tracks/features?id=5dRQUolXAVX3BbCiIxmSsf" for ::1 at 2019-08-21 17:21:18 -0600
+Processing by TracksController#features as */*
+  Parameters: {"id"=>"5dRQUolXAVX3BbCiIxmSsf"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.26ms)
+Completed 200 OK in 166ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 5162)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:30:04 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 749)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:30:07 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:35:28 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/tracks/lyrics?lyrics=Josie%27s%20on%20a%20vacation" for ::1 at 2019-08-21 17:35:42 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"Josie's on a vacation"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.68ms)
+Completed 200 OK in 699ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 22040)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:49:26 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 749)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:49:28 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:50:40 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/tracks/lyrics?lyrics=Josie" for ::1 at 2019-08-21 17:50:44 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"Josie"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.69ms)
+Completed 200 OK in 862ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 22065)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:50:52 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.25ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:51:45 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:52:53 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:53:14 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:53:42 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:55:40 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 17:57:37 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/search?track=Josie%27s%20on%20a%20vaction" for ::1 at 2019-08-21 17:57:50 -0600
+Processing by TracksController#search as */*
+  Parameters: {"track"=>"Josie's on a vaction"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 74ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 2401)
+
+
+Started GET "/tracks/lyrics?lyrics=Josie%27s%20on%20a%20vacation" for ::1 at 2019-08-21 17:58:10 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"Josie's on a vacation"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.05ms)
+Completed 200 OK in 4826ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 21173)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 18:00:42 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 18:01:16 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/lyrics?lyrics=Josies%20on%20a%20vacation" for ::1 at 2019-08-21 18:01:25 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"Josies on a vacation"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.56ms)
+Completed 200 OK in 856ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 20622)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 18:01:41 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:06:30 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 200 OK in 1051ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 21057)
+
+
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:10:09 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+Completed 500 Internal Server Error in 614ms (ActiveRecord: 0.0ms | Allocations: 6475)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/tracks_controller.rb:58:in `gsub!'
+app/controllers/tracks_controller.rb:58:in `block (2 levels) in lyrics'
+app/controllers/tracks_controller.rb:51:in `each'
+app/controllers/tracks_controller.rb:51:in `block in lyrics'
+app/controllers/tracks_controller.rb:48:in `each'
+app/controllers/tracks_controller.rb:48:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:15:28 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 952ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 19393)
+
+
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:16:36 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 704ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 19077)
+
+
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:16:59 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1559ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 19622)
+
+
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:18:25 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 914ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 19860)
+
+
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:19:19 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 912ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 18849)
+
+
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:22:04 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.28ms)
+Completed 200 OK in 1004ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 19263)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 18:23:10 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 375)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20sit%20in%20silence" for ::1 at 2019-08-21 18:23:27 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 200 OK in 1122ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 18253)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20sit%20in%20silence" for ::1 at 2019-08-21 18:24:24 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 885ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 18483)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20sit%20in%20silence" for ::1 at 2019-08-21 18:25:55 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1054ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 18122)
+
+
+Started GET "/tracks/lyrics?lyrics=shes%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:26:08 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"shes a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.29ms)
+Completed 200 OK in 891ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 19015)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 18:26:14 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 227)
+
+
+Started GET "/tracks/lyrics?lyrics=now%20i%20sit%20in%20silence" for ::1 at 2019-08-21 18:26:23 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"now i sit in silence"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 977ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 18407)
+
+
+Started GET "/tracks/lyrics?lyrics=shes%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:26:40 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"shes a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.33ms)
+Completed 200 OK in 1172ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 19076)
+
+
+Started GET "/tracks/lyrics?lyrics=Josie%27s%20on%20a%20vacation" for ::1 at 2019-08-21 18:28:24 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"Josie's on a vacation"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 907ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 19431)
+
+
+Started GET "/tracks/lyrics?lyrics=Josies%20on%20a%20vacation" for ::1 at 2019-08-21 18:28:44 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"Josies on a vacation"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 802ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 19685)
+
+
+Started GET "/tracks/lyrics?lyrics=Josie%27s%20on%20a%20vacation" for ::1 at 2019-08-21 18:30:44 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"Josie's on a vacation"}
+Completed 500 Internal Server Error in 1889ms (ActiveRecord: 0.0ms | Allocations: 6615)
+
+
+  
+Errno::ENOENT (No such file or directory - genius):
+  
+app/controllers/tracks_controller.rb:67:in ``'
+app/controllers/tracks_controller.rb:67:in `block (2 levels) in lyrics'
+app/controllers/tracks_controller.rb:51:in `each'
+app/controllers/tracks_controller.rb:51:in `block in lyrics'
+app/controllers/tracks_controller.rb:48:in `each'
+app/controllers/tracks_controller.rb:48:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=Josie%27s%20on%20a%20vacation" for ::1 at 2019-08-21 18:31:16 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"Josie's on a vacation"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 766ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 19875)
+
+
+Started GET "/tracks/lyrics?lyrics=Josie%27s%20on%20a%20vacation" for ::1 at 2019-08-21 18:32:01 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"Josie's on a vacation"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.33ms)
+Completed 200 OK in 806ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 20580)
+
+
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:32:26 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1043ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 19126)
+
+
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:33:51 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.73ms)
+Completed 200 OK in 868ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 19063)
+
+
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:35:16 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 1014ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 19020)
+
+
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:36:22 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 760ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 18749)
+
+
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:39:24 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 965ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 18954)
+
+
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:41:37 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 869ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 19242)
+
+
+Started GET "/tracks/lyrics?lyrics=she%27s%20a%20butcher%20with%20a%20smile" for ::1 at 2019-08-21 18:43:43 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"she's a butcher with a smile"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 849ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 19287)
+
+
+Started GET "/tracks/lyrics?lyrics=josie%27s%20on%20a%20vaction" for ::1 at 2019-08-21 18:44:14 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"josie's on a vaction"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.5ms)
+Completed 200 OK in 683ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 20539)
+
+
+Started GET "/tracks/lyrics?lyrics=i%27ll%20follow%20you%20into%20the%20dark" for ::1 at 2019-08-21 18:45:09 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"i'll follow you into the dark"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.25ms)
+Completed 200 OK in 1087ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 19425)
+
+
