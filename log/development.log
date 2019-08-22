@@ -6916,3 +6916,192 @@ Processing by TracksController#lyrics as */*
 Completed 200 OK in 1087ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 19425)
 
 
+Started GET "/tracks/lyrics?lyrics=Josie%E2%80%99s%20on%20a%20vacation" for ::1 at 2019-08-21 18:57:56 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"Josie’s on a vacation"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 155)
+
+
+  
+URI::InvalidURIError (URI must be ascii only "https://api.genius.com/search?q=Josie\u2019s on a vacation"):
+  
+app/controllers/tracks_controller.rb:30:in `lyrics'
+Started GET "/wakes" for ::1 at 2019-08-21 19:05:16 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 228)
+
+
+Started GET "/tracks/lyrics?lyrics=Josies%20on%20a%20vacation" for ::1 at 2019-08-21 19:05:35 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"Josies on a vacation"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.56ms)
+Completed 200 OK in 810ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 20242)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 19:11:49 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 19:11:51 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/lyrics?lyrics=test%20%C2%BA%C2%BA%C2%BA" for ::1 at 2019-08-21 19:12:10 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"test ººº"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 154)
+
+
+  
+URI::InvalidURIError (URI must be ascii only "https://api.genius.com/search?q=test \u00BA\u00BA\u00BA"):
+  
+app/controllers/tracks_controller.rb:30:in `lyrics'
+Started GET "/wakes" for ::1 at 2019-08-21 19:12:52 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/lyrics?lyrics=test%20%C2%BA%C2%BA%C2%BA" for ::1 at 2019-08-21 19:12:59 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"test ººº"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 154)
+
+
+  
+URI::InvalidURIError (URI must be ascii only "https://api.genius.com/search?q=test \u00BA\u00BA\u00BA"):
+  
+app/controllers/tracks_controller.rb:30:in `lyrics'
+Started GET "/wakes" for ::1 at 2019-08-21 19:13:28 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/lyrics?lyrics=Josies%20on%20a%20vacation" for ::1 at 2019-08-21 19:14:00 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"Josies on a vacation"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.6ms)
+Completed 200 OK in 1229ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 28552)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 19:14:06 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/lyrics?lyrics=test%20%C2%BA%C2%BA" for ::1 at 2019-08-21 19:14:15 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"test ºº"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 154)
+
+
+  
+URI::InvalidURIError (URI must be ascii only "https://api.genius.com/search?q=test \u00BA\u00BA"):
+  
+app/controllers/tracks_controller.rb:30:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=Josies%20on%20a%20vacation" for ::1 at 2019-08-21 19:19:27 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"Josies on a vacation"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.58ms)
+Completed 200 OK in 1822ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 20384)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 19:19:42 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 227)
+
+
+Started GET "/tracks/lyrics?lyrics=test%20%C2%BA%C2%BA" for ::1 at 2019-08-21 19:19:55 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"test ºº"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 154)
+
+
+  
+URI::InvalidURIError (URI must be ascii only "https://api.genius.com/search?q=test \u00BA\u00BA"):
+  
+app/controllers/tracks_controller.rb:30:in `lyrics'
+Started GET "/tracks/lyrics?lyrics=josies%20on%20a%20vacation" for ::1 at 2019-08-21 19:21:34 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"josies on a vacation"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.72ms)
+Completed 200 OK in 1805ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 20597)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 19:22:53 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 376)
+
+
+Started GET "/tracks/search?track=I%27ll%20follow%20you" for ::1 at 2019-08-21 19:23:01 -0600
+  
+SyntaxError (/Users/bartonw/sei/sei_projects/project_5_song_features/song-features-api/app/controllers/tracks_controller.rb:100: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/tracks_controller.rb:100: syntax error, unexpected keyword_end, expecting end-of-input
+app/controllers/tracks_controller.rb:100: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/wakes" for ::1 at 2019-08-21 19:24:04 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/tracks/lyrics?lyrics=josies%20on%20a%20vacation" for ::1 at 2019-08-21 19:24:12 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"josies on a vacation"}
+Completed 204 No Content in 430ms (ActiveRecord: 0.0ms | Allocations: 2565)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 19:26:06 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 372)
+
+
+Started GET "/tracks/lyrics?lyrics=josies%20on%20a%20vacation" for ::1 at 2019-08-21 19:26:13 -0600
+  
+SyntaxError (/Users/bartonw/sei/sei_projects/project_5_song_features/song-features-api/app/controllers/tracks_controller.rb:100: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/tracks_controller.rb:100: syntax error, unexpected keyword_end, expecting end-of-input
+app/controllers/tracks_controller.rb:100: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/wakes" for ::1 at 2019-08-21 19:26:36 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/tracks/lyrics?lyrics=josies%20on%20a%20vacation" for ::1 at 2019-08-21 19:26:44 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"josies on a vacation"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.44ms)
+Completed 200 OK in 897ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 20349)
+
+
+Started GET "/wakes" for ::1 at 2019-08-21 19:27:00 -0600
+Processing by WakesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/tracks/lyrics?lyrics=test%20%C2%BA%C2%BA%C2%BA" for ::1 at 2019-08-21 19:27:07 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"test ººº"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 269)
+
+
+Started GET "/tracks/lyrics?lyrics=ill%20follow%20you" for ::1 at 2019-08-21 19:27:36 -0600
+Processing by TracksController#lyrics as */*
+  Parameters: {"lyrics"=>"ill follow you"}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.31ms)
+Completed 200 OK in 945ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 19452)
+
+

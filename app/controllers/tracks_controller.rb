@@ -82,6 +82,8 @@ class TracksController < ApplicationController
     else
       render json: {message: "No results found. Please try changing your search"}, status: 200
     end
+    rescue URI::InvalidURIError
+      render json: {message: "No results found. Please try changing your search"}, status: 200
   end
 
   private
